@@ -2,6 +2,7 @@ package me.wisdomj;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
@@ -21,7 +22,14 @@ public class Application {
         //SampleListener 수동 실행
         //app.addListeners(new SampleListener());
 
+        // Application type 조정
         app.run(args);
+
+
+
+
+
+
 
         //배너끄기
         //app.setBannerMode(Banner.Mode.OFF);
